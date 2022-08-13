@@ -1,6 +1,6 @@
 @import url(/css/fonts.css);
 
-::root{
+:root{
 	--acent-1: #00868A;
 	--acent-2: #4FBFA5;
 	--white: #fff;
@@ -9,5 +9,67 @@
 }
 
 body{
+	font-family: 'Gilroy';
+	font-weight: 500;
+	color: var(--black);
+	background-color: #fff;
+}
 
+.container{
+	width: 1295px;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+
+.btn-big{
+	display: block;
+	padding: 15px 25px;
+	text-transform: uppercase;
+	color: var(--white);
+	background-color: var(--acent-1);
+}
+
+.pos-rel{
+	position: relative;
+}
+
+.header-top .container{
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.header-top .logo{
+	padding: 0px 35px;
+}
+
+.header-top .number-link{
+	color: var(--black);
+	padding: 0px 30px;
+}
+
+.header-top .salon{
+	display: flex;
+	padding: 0px 30px;
+}
+
+.header-top .salon span{
+	margin-right: 15px;
+}
+
+.header-top .btn-big{
+	margin: 0px 29px;
+	padding-left: 51px;
+	font-size: 14px;
+}
+
+.header-top .icon-eye{
+	position: absolute;
+	top: 50%;
+	left: 45px;
+	transform: translateY(-50%);
+}
+
+.header-top .icon{
+	margin: 0px 28px;
 }
