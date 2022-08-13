@@ -1,0 +1,13 @@
+@import url(/css/fonts.css);
+
+::root{
+	--acent-1: #00868A;
+	--acent-2: #4FBFA5;
+	--white: #fff;
+	--black: #000;
+	--color-logo: #333;
+}
+
+body{
+
+}
