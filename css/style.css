@@ -29,14 +29,35 @@ body{
 	background-color: var(--acent-1);
 }
 
-.pos-rel{
-	position: relative;
-}
-
 .header-top .container{
 	display: flex;
 	flex-wrap: nowrap;
+}
+
+.header-top .container div{
+	display: flex;
 	align-items: center;
+	position: relative;
+}
+
+.header-top .container div::before{
+	content: "";
+	width: 1px;
+	height: 90px;
+	background-color: #C4C4C4;
+	position: absolute;
+	top: -15px;
+	right: 0;
+}
+
+.header-top .container div:first-child::after{
+	content: "";
+	width: 1px;
+	height: 90px;
+	background-color: #C4C4C4;
+	position: absolute;
+	top: -15px;
+	left: 0;
 }
 
 .header-top .logo{
@@ -71,5 +92,5 @@ body{
 }
 
 .header-top .icon{
-	margin: 0px 28px;
+	padding: 0px 28px;
 }
