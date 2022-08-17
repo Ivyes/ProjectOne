@@ -1,4 +1,5 @@
 @import url(/css/fonts.css);
+@import url(/css/slick.css);
 
 :root{
 	--acent-1: #00868A;
@@ -18,7 +19,6 @@ body{
 .container{
 	width: 1295px;
 	margin: 0 auto;
-	padding: 15px 0;
 }
 
 .btn-big{
@@ -32,6 +32,7 @@ body{
 .header-top .container{
 	display: flex;
 	flex-wrap: nowrap;
+	padding: 15px 0;
 }
 
 .header-top .container div{
@@ -46,7 +47,7 @@ body{
 	height: 90px;
 	background-color: #C4C4C4;
 	position: absolute;
-	top: -15px;
+	top: -19px;
 	right: 0;
 }
 
@@ -56,7 +57,7 @@ body{
 	height: 90px;
 	background-color: #C4C4C4;
 	position: absolute;
-	top: -15px;
+	top: -19px;
 	left: 0;
 }
 
@@ -66,7 +67,7 @@ body{
 
 .header-top .number-link{
 	color: var(--black);
-	padding: 0px 30px;
+	padding: 0px 27px;
 }
 
 .header-top .salon{
@@ -93,4 +94,93 @@ body{
 
 .header-top .icon{
 	padding: 0px 28px;
+}
+
+.header-midle{
+	background-color: var(--acent-2);
+}
+
+.header-midle .container{
+	padding: 30px 0px 0px 0px;
+}
+
+.header-menu{
+	margin-left: 60px;
+	margin-bottom: 23px;
+}
+
+.menu-item{
+	font-size: 18px;
+	color: var(--white);
+	margin: 0px 32.5px;
+	transition: color .3s ease;
+	position: relative;
+}
+
+.menu-item::after{
+	content: '';
+	display: inline-block;
+	width: 100%;
+	height: 1px;
+	background-color: var(--black);
+	position: absolute;
+	bottom: -5px;
+	left: -1000000px;
+}
+
+.menu-item:hover::after{
+	left: 0px;
+}
+
+.menu-item:hover{
+	color: var(--black);
+}
+
+.menu-item:first-child{
+	margin-left: 0px;
+}
+
+.menu-btn{
+	display: inline-block;
+	margin-left: 62.5px;
+	padding: 10px 15px;
+	background-color: var(--white);
+	color: var(--black);
+	transition: color .3s ease, background-color .3s ease;
+}
+
+.menu-btn:hover{
+	color: var(--white);
+	background-color: var(--acent-1);
+}
+
+.slide-item-left{
+	max-width: 550px;
+	width: 100%;
+	padding-top: 133px;
+}
+
+.slider-flex{
+	display: flex;
+}
+
+.slide-tittle{
+	margin-bottom: 45px;
+	font-size: 48px;
+	color: var(--white);
+	font-weight: bold;
+}
+
+.slide-text{
+	color: var(--white);
+	padding-right: 134px;
+	margin-bottom: 40px;	
+}
+
+.btn{
+	padding: 15px 25px;
+	background-color: var(--acent-1);
+	text-transform: uppercase;
+	color: var(--white);
+	letter-spacing: 1px;
 }
