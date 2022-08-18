@@ -211,3 +211,18 @@ body{
 .header-bottom-menu-link:nth-child(odd){
 	background-color: var(--acent-1);
 }
+
+.news-block .container{
+	display: flex;
+	margin-top: 80px;
+}
+
+.inovation{
+	width: 40.61%;
+	margin-right: 67px;
+}
+
+.beautiful{
+	width: 49.11%;
+	margin-left: 67px;
+}
