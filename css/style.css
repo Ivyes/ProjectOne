@@ -184,3 +184,29 @@ body{
 	color: var(--white);
 	letter-spacing: 1px;
 }
+
+.header-bottom-menu{
+	min-height: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+}
+
+.header-bottom-menu-link{
+	color: var(--white);
+	font-size: 21px;
+	padding: 27.5px 0;
+	text-align: center;
+}
+
+.header-bottom-menu-link:first-child{
+	flex-grow: 2;
+}
+
+.header-bottom-menu-link:nth-child(n+2){
+	flex-grow: 1;
+}
+
+.header-bottom-menu-link:nth-child(odd){
+	background-color: var(--acent-1);
+}
