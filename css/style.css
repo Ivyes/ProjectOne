@@ -224,13 +224,17 @@ body{
 	color: var(--white);
 }
 
+
 .tittle-baner{
 	display: inline-block;
 	padding: 10px 15px;
-	margin: 35px 0 30px 40px;
 	color: inherit;
 	font-size: 18px;
 	background-color: var(--acent-2);
+}
+
+.inovation .tittle-baner{
+	margin: 35px 0 30px 40px;
 }
 
 .inovation-tittle{
@@ -240,7 +244,45 @@ body{
 	line-height: 45px;
 }
 
+.btn-inovation{
+	display: flex;
+	align-items: center;
+	margin-left: 40px;
+	margin-bottom: 45px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+}
+
+.btn-inovation span{
+	margin-left: 20px;
+}
+
 .beautiful{
 	width: 49.11%;
 	margin-left: 67px;
+	padding-top: 35px;
+	position: relative;
+}
+
+.beautiful .tittle-baner{
+	color: var(--white);
+	margin-bottom: 30px;
+}
+
+.beautiful-text{
+	opacity: 0.3;
+	display: flex;
+	align-items: center;
+}
+
+.beautiful-text span{
+	font-size: 48px;
+}
+
+.patent-img{
+	position: absolute;
+	right: 0;
+	top: 85px;
+	z-index: -1;
 }
