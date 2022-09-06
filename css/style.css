@@ -274,10 +274,27 @@ body{
 	opacity: 0.3;
 	display: flex;
 	align-items: center;
+	margin-bottom: 45px;
+	transition: .3s linear;
+}
+
+.beautiful-text:last-child{
+	margin-bottom: 0;
 }
 
 .beautiful-text span{
 	font-size: 48px;
+	margin-right: 20px;
+}
+
+.beautiful-text:hover{
+	transform: scale(1.8);
+  margin-left: 182px;
+  opacity: 1;
+}
+
+.beautiful-text:hover span{
+	color: var(--acent-1);
 }
 
 .patent-img{
