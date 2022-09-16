@@ -212,7 +212,7 @@ body{
 	background-color: var(--acent-1);
 }
 
-.news-block .container{
+.info-block .container{
 	display: flex;
 	margin-top: 80px;
 }
@@ -276,6 +276,7 @@ body{
 	align-items: center;
 	margin-bottom: 45px;
 	transition: .3s linear;
+	cursor: default;
 }
 
 .beautiful-text:last-child{
